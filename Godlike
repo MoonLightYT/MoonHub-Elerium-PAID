@@ -1,5 +1,6 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonLightYT/MoonLightPrivate/refs/heads/main/Godlike"))()
-local window = library:AddWindow("MoonLight_YT", {
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library/main/Library", true))()
+
+local window = library:AddWindow("Kavz V2", {
     main_color = Color3.fromRGB(0, 0, 0), -- Color
     min_size = Vector2.new(470, 470), -- Size of the GUI
     can_resize = false,
@@ -2259,5 +2260,5 @@ end)
 local Credits = window:AddTab("Credits")
 
 Credits:AddLabel("Paid Version, 1,000 Robux")
-Credits:AddLabel("Script Made By Godlike×Moonlight")
-Credits:AddLabel("Youtube: Moonlight.")
+Credits:AddLabel("Script Made By Godlike")
+Credits:AddLabel("Discord: godlike_3.")
